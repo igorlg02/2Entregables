@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
     <title>Index</title>
 </head>
 <body>
+    <header class="index-header">
+        <article class="info">
+            <h1>Ejercicio final</h1>
+            <div class="header-buttons">
+                <a href="./contacto.html">contacto</a>
+            <a href="./">home</a>
+            </div>
+        </article>
 
-    <header align="center">
-        <a href="./contacto.html">contacto</a>
-        <a href="./">home</a>
-    </header>
-
-    <p align="center">Ejercicio HTML</p>
-    <section style="display: flex; flex-direction: row-reverse; justify-content: space-between;">
-
-        <div align="left"></div>
+        <section class="vieja" align="center">
+            <form class="info" id="contacto-form" action="" method="GET">
+            <h2>Información de contacto</h2>
+            <img class="perfil" src="./images/la-viral-venganza-de-una-abuela-despues-de-que-su-nieto-se-olvidase-de-su-cumpleanos.jpg" alt="perfil" class="portrait">
+            <P>Sexy Señorita, Want you can playah!</P>
+            <P><strong>21 años</P>
+            <P><strong>Coruña, Riazor</P>
+                <section class="social">
+                    <a href="https://www.coruna.gal/">
+                        <img src="./images/linkedin.svg" alt="linkedin"></a>
+                </section>
+              </section>
+    </form>
+</header>
+<main class="gustos">
             <section class="favoritos">
                 <h2>Cosas favoritas</h2>
                 <article>
@@ -36,18 +51,10 @@
             </section>
         </div>
 
-    <section align="center">
-        <h2>Información de contacto</h2>
-        <img src="./images/la-viral-venganza-de-una-abuela-despues-de-que-su-nieto-se-olvidase-de-su-cumpleanos.jpg" alt="perfil">
-        <P>Sexy Señorita, Want you can playah!</P>
-        <P><strong>21 años</P>
-        <P><strong>Coruña, Riazor</P>
-        <a href="https://www.coruna.gal/"><img src="./images/linkedin.svg" alt="linkedin" style="height: 30px; width: 30px;"></a>
-    </section>
-
+  <section class="horario">
     <H2>Horario</H2>
     <table border="3">
-        <tr>
+        <tr class="principal">
             <th>Hora</th>
             <th>Lunes</th>
             <th>Martes</th>
@@ -88,16 +95,19 @@
             <td>Muh</td>
         </tr>
     </table>
-    <br>
-    <br>
+  </section>
 
+  <section class="video" id="info">
     <h2>Video</h2>
     <iframe width="460" height="315" src="./images/yt1s.com - funniest video ever XDDD_360p.mp4" rameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
+  </section>
 
-<footer align="center">
-    <a href="http://marca.es/">Deporte</a>
-    <a href="http://www.moiceleste.com/">Soporte</a>
-    
-</footer>
+</main>
+<footer class="pie">
+    <section>
+        <a href="http://marca.es/">Deporte</a>
+        <a href="http://www.moiceleste.com/">Soporte</a>
+    </section>
+    </footer>
+</body>
 </html>

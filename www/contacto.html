@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
     <title>Contacto</title>
 </head>
 <body>
-        <header align="center">
-            <a href="./contacto.html">contacto</a>
-            <a href="./">home</a>
-        </header>
-        
-        <p align="center">Ejercicio HTML</p>
-        <section style="display: flex; flex-direction: row-reverse; justify-content: space-between;">
+        <header class="index-header">
+            <article class="info">
+                <h1>Ejercicio final</h1>
+                <div class="header-buttons">
+                    <a href="./contacto.html">contacto</a>
+                <a href="./">home</a>
+                </div>
+            </article>
     
-            <section align="center">
-                <form id="contacto-form" action="" method="GET">
+            <section class="vieja" align="center">
+                <form class="info" id="contacto-form" action="" method="GET">
                 <h2>Información de contacto</h2>
-                <img src="./images/la-viral-venganza-de-una-abuela-despues-de-que-su-nieto-se-olvidase-de-su-cumpleanos.jpg" alt="perfil">
+                <img class="perfil" src="./images/la-viral-venganza-de-una-abuela-despues-de-que-su-nieto-se-olvidase-de-su-cumpleanos.jpg" alt="perfil" class="portrait">
                 <P>Sexy Señorita, Want you can playah!</P>
                 <P><strong>21 años</P>
                 <P><strong>Coruña, Riazor</P>
-                <a href="https://www.coruna.gal/"><img src="./images/linkedin.svg" alt="linkedin" style="height: 30px; width: 30px;"></a>
-            </section>
+                    <section class="social">
+                        <a href="https://www.coruna.gal/">
+                            <img src="./images/linkedin.svg" alt="linkedin"></a>
+                    </section>
+                  </section>
         </form>
-
-            <section  align="left" >
+    </header>
+    <main>
                 <form id="contacto-form" action="" method="GET">
                     <fieldset>
                         <legend>Datos personales</legend>
@@ -61,17 +66,13 @@
                         <label for="texto">Mensaje:</label>
                         <textarea name="texto" id="texto" cols="30" rows="10">Tu mensaje...</textarea>
                     </fieldset>
-                </form>
-                <button type="submit" form="contacto-form" value="Submit">Enviar</button>
-            </section>
-        </section>
-            
+                </form>        
+            </main> 
+                <footer align="center">
+                    <section>
+                        <a href="http://marca.es/">Deporte</a>
+                        <a href="http://www.moiceleste.com/">Soporte</a>
+                    </section>
+                    </footer>
     </body>
-    <footer align="center">
-    <section>
-        <a href="http://marca.es/">Deporte</a>
-        <a href="http://www.moiceleste.com/">Soporte</a>
-    </section>
-    </footer>
-
 </html>

@@ -1,0 +1,206 @@
+@import 'normalize.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap');
+
+
+body {
+    --title-font-family: 'Playfair Display';
+    --body-font-family: 'Open Sans';
+    --principal-color: #ffffff;
+    background-color: #0E1618;
+    color: white;
+    font-family: var(--body-font-family);
+}
+
+header {
+    background-color: rgb(14, 22, 24);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 75vh;
+}
+
+.info {
+    margin-left: 20%;
+    color: rgb(241, 241, 241);
+    align-self: center;
+
+}
+
+.info h1 {
+    font-family: var(--title-font-family);
+    margin: 0px;
+    font-size: 3em;
+}
+
+.info h2 {
+    font-family: var(--body-font-family);
+    font-size: 1em;
+}
+
+.header-buttons {
+    margin-top: 100px;
+}
+
+.header-buttons a:last-child {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.header-buttons a:first-child {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.vieja {
+    margin-right: 5%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: var(--body-font-family);
+    color: whitesmoke;
+    font-size: 0.9em;
+}
+.perfil {
+    width: 20em;
+    border-radius: 50px;
+    border: solid black;
+    margin-bottom: 10px
+}
+
+a{
+    color: black;
+}
+a:hover{
+    border-bottom: 2px solid turquoise;
+    cursor: pointer;
+}
+
+a:active {
+    background-color: rgb(248, 4, 98);
+  }
+
+
+img.portrait {
+    width: 10em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.vieja span {
+    margin-bottom: 10px;
+}
+
+.social img {
+    max-width: 40px;
+}
+
+main {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    padding-top: 0%;
+}
+
+.gustos {
+    padding: 0px;
+    display: grid;
+    gap: 150px;
+    grid-template-columns: repeat(auto-fit, 302px);
+    justify-content: center;
+  }
+
+.favoritos {
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+}
+
+.favoritos h2 {
+    font-family: var(--title-font-family);
+    font-size: 3em;
+}
+
+.favoritos h3 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.6em;
+}
+ul.comida li:hover {
+    list-style-image: url('../images/pirulo.png');
+}
+
+ul.hobbies li:hover {
+    list-style-image: url('../images/rabioso.png');
+}
+
+tr:not(.principal) {
+    background-color: white;
+    color:  #0E1618;
+}
+
+td:first-child {
+    background-color: #0E1618;
+    color: white;
+}
+
+.horario h2 {
+    font-family: var(--title-font-family);
+    font-size: 3em;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.video {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.video h2 {
+    font-family: var(--title-font-family);
+    font-size: 3em;
+    text-align: center;
+    padding-left: 165px;
+}
+
+footer {
+    margin-top: 5%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgb(214, 6, 152);
+    color:  #0E1618;
+    text-align: center;
+}
+
+
+footer a {
+    text-decoration: none;
+}
+
+.pie {
+    margin-top: 5px;
+}
