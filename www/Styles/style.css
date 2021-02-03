@@ -21,7 +21,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    height: 75vh;
+    height: 45vh;
 }
 
 .info {
